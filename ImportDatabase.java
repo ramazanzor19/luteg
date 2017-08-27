@@ -12,7 +12,7 @@ import java.sql.SQLException;
 public class ImportDatabase {
 	
 	private static final String CONNECTOR = "jdbc:mysql://localhost:3306/";
-	private static final String TABLE_NAME = "Luteg";
+	private static final String DATABASE_NAME = "Luteg";
 	
 	private static final String USERNAME = "username";
 	private static final String PASSWORD = "password";
