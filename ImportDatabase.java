@@ -40,7 +40,7 @@ public class ImportDatabase {
 		
 		// load the file into database 
 		try {
-			Connection connection = DriverManager.getConnection(CONNECTOR + TABLE_NAME, USERNAME, PASSWORD);
+			Connection connection = DriverManager.getConnection(CONNECTOR + DATABASE_NAME, USERNAME, PASSWORD);
 			String loadQuery = "LOAD DATA LOCAL INFILE '" 
 									+ child.toString() 
 									+ "' REPLACE INTO TABLE Luteg"
